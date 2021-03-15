@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 app.use(express.static('./dist/zimlit-com-ng'));
 app.use((req, res, next) => {
-  if (reg.get('Host') == 'www.zimlit-com-ng.herokuapp.com') {
+  if (reg.get('Host') == 'zimlit-com-ng.herokuapp.com') {
     return res.redirect(301, 'www.zimlit.com');
   }
   return next();
