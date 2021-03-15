@@ -7,6 +7,7 @@ import { ConlangingComponent } from './conlanging/conlanging.component';
 import { CubingComponent } from './cubing/cubing.component';
 import { WorldbuildingComponent } from './worldbuilding/worldbuilding.component';
 import { ZzTutorialComponent } from './zz-tutorial/zz-tutorial.component';
+import { ZzTutorialBeginnerComponent } from './zz-tutorial-beginner/zz-tutorial-beginner.component';
 
 const routes: Routes = [
   { path: 'home', redirectTo: '/', pathMatch: 'full' },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'conlanging', component: ConlangingComponent },
   { path: 'cubing', component: CubingComponent },
   { path: 'worldbuilding', component: WorldbuildingComponent },
-  { path: 'cubing/tutorials/zz', component: ZzTutorialComponent }
+  { path: 'cubing/tutorials/zz', component: ZzTutorialComponent },
+  { path: 'cubing/tutorials/zz/beginner', component: ZzTutorialBeginnerComponent }
 ];
 
 @NgModule({

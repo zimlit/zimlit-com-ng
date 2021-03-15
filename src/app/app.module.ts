@@ -10,6 +10,7 @@ import { ConlangingComponent } from './conlanging/conlanging.component';
 import { CubingComponent } from './cubing/cubing.component';
 import { WorldbuildingComponent } from './worldbuilding/worldbuilding.component';
 import { ZzTutorialComponent } from './zz-tutorial/zz-tutorial.component';
+import { ZzTutorialBeginnerComponent } from './zz-tutorial-beginner/zz-tutorial-beginner.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ZzTutorialComponent } from './zz-tutorial/zz-tutorial.component';
     ConlangingComponent,
     CubingComponent,
     WorldbuildingComponent,
-    ZzTutorialComponent
+    ZzTutorialComponent,
+    ZzTutorialBeginnerComponent
   ],
   imports: [
     BrowserModule,
