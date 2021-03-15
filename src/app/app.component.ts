@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.styl']
 })
 export class AppComponent {
-  title = 'zimilt-com-ng';
+  title = 'zimlit-com-ng';
   headerItems = ['home', 'coding', 'cubing', 'conlanging', 'worldbuilding'];
 }
