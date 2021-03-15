@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'zimilt-com-ng';
-  headerItems = ['coding', 'cubing', 'conlanging', 'worldbuilding'];
+  headerItems = ['home', 'coding', 'cubing', 'conlanging', 'worldbuilding'];
 }
