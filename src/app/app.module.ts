@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { ConlangingComponent } from './conlanging/conlanging.component';
 import { CubingComponent } from './cubing/cubing.component';
 import { WorldbuildingComponent } from './worldbuilding/worldbuilding.component';
+import { ZzTutorialComponent } from './zz-tutorial/zz-tutorial.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WorldbuildingComponent } from './worldbuilding/worldbuilding.component'
     HomeComponent,
     ConlangingComponent,
     CubingComponent,
-    WorldbuildingComponent
+    WorldbuildingComponent,
+    ZzTutorialComponent
   ],
   imports: [
     BrowserModule,
